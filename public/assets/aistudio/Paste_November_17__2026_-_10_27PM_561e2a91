@@ -1,0 +1,1083 @@
+# MASTER DEVELOPMENT PROMPT: BUILD A COMPLETE PROFESSIONAL GADGETS E-COMMERCE WEBSITE FROM SCRATCH
+
+Act as a senior full-stack developer, UI/UX designer, database architect and e-commerce development specialist.
+
+I want you to build a COMPLETE, FULLY FUNCTIONAL, MODERN AND PROFESSIONAL GADGETS E-COMMERCE WEBSITE from scratch to completion.
+
+IMPORTANT: I DO NOT WANT A STATIC WEBSITE, FRONTEND DEMO, OR JUST A UI DESIGN. I WANT A REAL, WORKING E-COMMERCE APPLICATION WITH A PROPER BACKEND, DATABASE, AUTHENTICATION, PAYMENT GATEWAY, ORDER MANAGEMENT SYSTEM AND ADMIN DASHBOARD.
+
+Do not simply generate a website template. Implement the actual functionality of every feature.
+
+Do not leave buttons inactive, pages empty, features as placeholders, or backend integrations simulated.
+
+Build the application systematically and ensure all components communicate correctly.
+
+# 1. WEBSITE BUSINESS INFORMATION
+
+Website type: Gadgets and Electronics E-commerce Store.
+
+Target market: Nigeria and Nigerian customers.
+
+Currency: Nigerian Naira (NGN ₦).
+
+Payment gateway: Paystack.
+
+Backend: Supabase.
+
+Frontend: Modern, responsive and professionally designed web application.
+
+WhatsApp integration: Direct customer communication after successful payment verification.
+
+The website will sell gadgets and electronic products for everyone.
+
+# 2. PRODUCTS AND CATEGORIES
+
+Create a complete product categorization system for the following products:
+
+MAIN CATEGORIES:
+
+1. Smartphones
+2. Laptops
+3. Tablets
+4. iPads
+5. New Arrivals
+6. Accessories
+
+SUBCATEGORIES:
+
+- Tripods
+- Earpieces
+- AirPods
+- Headphones
+- Chargers
+- Power Banks
+- Smartwatches
+- Bluetooth Speakers
+- Phone Accessories
+- Computer Accessories
+- ITEL PowerGo
+- Other Electronic Gadgets
+
+Additional shopping sections:
+
+- Deals & Offers
+- Best Sellers
+- Trending Gadgets
+- Featured Products
+- Recommended Products
+
+Each category must have its own functional page.
+
+Products should automatically appear in the appropriate category based on their assigned category in the admin dashboard.
+
+# 3. BRAND IDENTITY AND WEBSITE DESIGN
+
+My brand colours are:
+
+- White
+- Blue
+- Orange
+- Sky Blue
+- Green
+
+Use these colours professionally throughout the website.
+
+Design direction:
+
+Create a premium electronics shopping experience inspired by the best modern international electronics e-commerce websites.
+
+The website must look:
+
+- Premium and luxurious.
+- Modern and professional.
+- Attractive and captivating.
+- Clean and well-organized.
+- Trustworthy and secure.
+- Easy to navigate.
+- Visually appealing.
+
+Use beautiful typography, professional spacing, modern icons, elegant product cards, attractive buttons, subtle animations, smooth transitions and high-quality product photography.
+
+Use white as the main background, blue as the primary brand colour, orange for important promotional elements and calls to action, sky blue for supporting visual elements and green for successful payment and confirmation indicators.
+
+Avoid overcrowded layouts, excessive colours and childish designs.
+
+The website must look like a genuine, established electronics retail brand.
+
+# 4. NAVIGATION BAR
+
+Create a professional, responsive navigation bar.
+
+The navigation bar must contain:
+
+- HOME
+- NEW ARRIVALS
+- PHONES
+- LAPTOPS
+- TABLETS
+- ACCESSORIES (with dropdown arrow)
+
+The ACCESSORIES dropdown must contain:
+
+- Tripods
+- Earpieces
+- AirPods
+- Headphones
+- Chargers
+- Power Banks
+- Smartwatches
+- Bluetooth Speakers
+- Phone Accessories
+- Computer Accessories
+- Gadgets
+
+Other navigation links:
+
+- DEALS & OFFERS
+- ABOUT US
+- CONTACT US
+
+Include these functional icons:
+
+- Search icon
+- User Account icon
+- Shopping Cart icon with a live cart quantity indicator.
+
+Every navigation item must lead to its correct page.
+
+The dropdown must work on desktop and mobile devices.
+
+On mobile, create a professional hamburger menu with properly functioning navigation links.
+
+# 5. HOMEPAGE DESIGN
+
+Create an exceptional homepage that immediately captures visitors' attention.
+
+The homepage must include the following sections:
+
+A. HERO SECTION
+
+Create a large, beautiful hero banner featuring premium electronic gadgets.
+
+Include:
+
+- Attractive headline.
+- Compelling short description.
+- High-quality gadget images.
+- Shop Now button.
+- Explore Products button.
+- Promotional message or discount announcement.
+
+The banner must be visually impressive and responsive.
+
+B. POPULAR CATEGORIES
+
+Display beautiful category cards with images for:
+
+- Smartphones
+- Laptops
+- Tablets
+- Smartwatches
+- Earphones
+- Accessories
+- Power Banks
+- Tripods
+
+Clicking each category should open its corresponding product listing page.
+
+C. NEW ARRIVALS
+
+Display recently added products automatically.
+
+D. BEST SELLERS
+
+Display products marked as best sellers by the administrator.
+
+E. FEATURED PRODUCTS
+
+Display products selected as featured in the admin dashboard.
+
+F. SPECIAL OFFERS
+
+Create attractive promotional banners and discounted product displays.
+
+Show original prices, discounted prices and percentage discounts where applicable.
+
+G. TRENDING GADGETS
+
+Display popular products.
+
+H. RECOMMENDED PRODUCTS
+
+Display relevant recommended products.
+
+I. CUSTOMER REVIEWS
+
+Create a beautiful customer review section.
+
+Customers should be able to submit reviews for products they have purchased.
+
+Only verified customers who have purchased the relevant product should be able to submit verified-purchase reviews.
+
+Allow the administrator to moderate reviews.
+
+J. TRUST SECTION
+
+Display shopping benefits such as:
+
+- Secure Paystack Payments.
+- Quality Gadgets.
+- Customer Support.
+- Reliable Delivery.
+- Easy Ordering.
+
+K. NEWSLETTER
+
+Create a functional newsletter subscription section that saves subscribers in Supabase.
+
+L. FOOTER
+
+Include:
+
+- Brand logo.
+- Short business description.
+- Quick navigation links.
+- Product categories.
+- Contact information.
+- WhatsApp contact link.
+- Social media links.
+- Privacy Policy.
+- Terms and Conditions.
+- Shipping and Delivery Policy.
+- Return and Refund Policy.
+- Copyright information.
+
+# 6. PRODUCT LISTING PAGES
+
+Every product category must have its own dedicated listing page.
+
+Each page must display:
+
+- Category title.
+- Category description.
+- Product images.
+- Product names.
+- Product prices.
+- Discounted prices where applicable.
+- Stock availability.
+- Product ratings.
+- Add to Cart button.
+- View Product button.
+
+Implement functional filtering:
+
+- Filter by product category.
+- Filter by minimum and maximum price.
+- Filter by availability.
+- Filter by brand.
+- Filter by product features where applicable.
+
+Implement sorting:
+
+- Price: Low to High.
+- Price: High to Low.
+- Newest Arrivals.
+- Best Selling.
+- Most Popular.
+
+Add pagination or properly implemented load-more functionality.
+
+All product information must come from Supabase, not hardcoded sample data.
+
+# 7. INDIVIDUAL PRODUCT DETAILS PAGE
+
+Every product must have its own dedicated product page.
+
+Include:
+
+1. Multiple product images.
+2. Product name.
+3. Current selling price.
+4. Original price, where discounted.
+5. Discount percentage.
+6. Detailed product description.
+7. Product specifications.
+8. Available colours.
+9. Available variations.
+10. Stock availability.
+11. Quantity selector.
+12. ADD TO CART button.
+13. BUY NOW button.
+14. Product ratings and reviews.
+15. Related products.
+16. Delivery information.
+
+Allow customers to:
+
+- Select product colours.
+- Select product variations.
+- Increase or decrease quantities.
+- View the selected product price.
+- Add products to their cart.
+- Buy products immediately.
+
+Do not allow customers to purchase quantities greater than available stock.
+
+Display an appropriate OUT OF STOCK message when inventory reaches zero.
+
+# 8. FUNCTIONAL SHOPPING CART
+
+Build a fully functional shopping cart.
+
+Customers must be able to:
+
+- Add products to cart.
+- Remove products from cart.
+- Increase quantities.
+- Decrease quantities.
+- Change product variations where applicable.
+- View product images.
+- View individual product prices.
+- View quantities.
+- View subtotal.
+- View applicable delivery charges.
+- View discounts.
+- View the final total amount.
+
+The cart must update automatically whenever a customer changes quantities or removes products.
+
+Display the live cart quantity in the navigation bar.
+
+Persist the cart appropriately so customers do not lose their shopping cart when refreshing the page.
+
+Support both guest shopping and authenticated customer shopping.
+
+Validate product prices and stock against the database during checkout. Never trust prices or totals supplied by the browser.
+
+# 9. CUSTOMER ACCOUNT AND AUTHENTICATION
+
+Integrate Supabase Authentication.
+
+Create:
+
+- Customer Registration Page.
+- Customer Login Page.
+- Forgot Password Page.
+- Password Reset Page.
+- Customer Account Dashboard.
+
+Customers should be able to register using their email and password.
+
+The customer dashboard should include:
+
+- Personal Information.
+- Full Name.
+- Email Address.
+- Phone Number.
+- WhatsApp Number.
+- Saved Delivery Addresses.
+- Order History.
+- Order Details.
+- Payment Status.
+- Delivery Status.
+- Account Settings.
+
+Customers should be able to view previous purchases and track their orders.
+
+Allow customers to shop as guests without forcing account registration.
+
+# 10. CHECKOUT PAGE
+
+Build a complete and professional checkout system.
+
+Customers must provide the following information:
+
+1. Full Name.
+2. Phone Number.
+3. WhatsApp Number.
+4. Email Address.
+5. Delivery Address.
+6. State.
+7. City.
+8. Additional Delivery Information.
+
+Make required fields compulsory and validate all inputs.
+
+Display the complete order summary before payment.
+
+The order summary must include:
+
+- Product Images.
+- Product Names.
+- Selected Colours or Variations.
+- Quantities.
+- Individual Prices.
+- Subtotal.
+- Delivery Fee.
+- Discount.
+- Total Amount Payable.
+
+Customers must be able to review their information before proceeding.
+
+Calculate all order totals securely on the backend.
+
+# 11. PAYSTACK PAYMENT INTEGRATION
+
+Integrate the REAL Paystack payment gateway.
+
+IMPORTANT: This must be an actual payment integration, not a fake payment interface.
+
+Use Paystack's official payment initialization and transaction verification process.
+
+Implement payment through secure Supabase Edge Functions or an equally secure backend.
+
+PAYMENT PROCESS:
+
+1. Customer adds products to cart.
+2. Customer proceeds to checkout.
+3. Customer enters delivery information.
+4. Backend validates products, prices and stock.
+5. Backend creates a unique order number.
+6. Backend creates a pending order.
+7. Backend initializes a Paystack transaction using the correct order amount in kobo.
+8. Customer is redirected to the Paystack payment page.
+9. Customer completes payment.
+10. Paystack redirects the customer to the website callback page.
+11. Backend verifies the transaction directly with Paystack using the secret key.
+12. Confirm that the transaction reference, amount, currency and status match the original order.
+13. Only after successful verification should the payment status change to PAID.
+14. Update the order status appropriately.
+15. Redirect the customer to the order confirmation page.
+16. Automatically open the customer's WhatsApp conversation with the customized order message.
+
+IMPORTANT PAYMENT SECURITY REQUIREMENTS:
+
+- Never expose the Paystack secret key in frontend code.
+- Store sensitive keys in Supabase Edge Function environment secrets.
+- Never trust frontend payment success messages.
+- Verify payments using Paystack's official verification API.
+- Implement Paystack webhook verification using the correct signature validation.
+- Handle duplicate webhook events safely.
+- Make payment updates idempotent.
+- Do not mark an order as paid merely because the customer returns to the website.
+- Never redirect customers to WhatsApp as proof of payment.
+- Do not clear the customer's cart until payment is verified.
+- Handle failed, abandoned, pending and successful transactions correctly.
+- Prevent duplicate orders and duplicate payment processing.
+
+Use Paystack test mode during development and provide clear instructions for switching to live credentials after testing.
+
+# 12. AUTOMATIC WHATSAPP REDIRECTION
+
+This is one of the most important features.
+
+After successful payment verification, automatically redirect the customer to my WhatsApp DM.
+
+Use the WhatsApp click-to-chat URL with a properly URL-encoded customized message.
+
+The message must contain:
+
+"I have made my payment for my gadgets, kindly confirm and get back to me."
+
+Automatically include:
+
+- Customer's Full Name.
+- Order Number.
+- Products Purchased.
+- Product Quantities.
+- Total Amount Paid in NGN.
+- Paystack Payment Reference.
+
+Example WhatsApp message:
+
+Hello, I have made my payment for my gadgets, kindly confirm and get back to me.
+
+Customer Name: [Customer Name]
+
+Order Number: [Order Number]
+
+Products Purchased:
+[Product Name] × [Quantity]
+[Product Name] × [Quantity]
+
+Total Amount Paid: ₦[Total Amount]
+
+Payment Reference: [Payment Reference]
+
+Please confirm my order and provide the delivery details.
+
+IMPORTANT:
+
+- Use my actual WhatsApp business number, which I will provide.
+- Generate the WhatsApp URL dynamically.
+- Properly encode the entire message.
+- Open WhatsApp only after successful backend payment verification.
+- Support WhatsApp mobile app and WhatsApp Web.
+- If automatic opening is blocked, display a clear button saying CONTINUE TO WHATSAPP.
+- Never claim a WhatsApp message was sent automatically. The customer must press Send inside WhatsApp.
+- Save the order and payment details in Supabase regardless of whether the customer completes the WhatsApp step.
+
+# 13. ADMIN DASHBOARD
+
+Build a completely separate, professional and secure ADMIN DASHBOARD.
+
+The dashboard must be accessible only to authorized administrators.
+
+Do not allow customers to access administrative functions by changing URLs or modifying frontend code.
+
+Use secure server-side role verification and Supabase Row Level Security.
+
+ADMIN DASHBOARD OVERVIEW:
+
+Display:
+
+- Total Sales.
+- Total Orders.
+- Pending Orders.
+- Completed Orders.
+- Total Customers.
+- Total Products.
+- Low Stock Products.
+- Out of Stock Products.
+- Recent Orders.
+- Sales Performance.
+
+PRODUCT MANAGEMENT:
+
+The administrator must be able to:
+
+- Add New Products.
+- Upload Multiple Product Images.
+- Edit Products.
+- Delete Products.
+- Update Product Names.
+- Update Product Descriptions.
+- Update Product Prices.
+- Add Discounted Prices.
+- Manage Product Colours.
+- Manage Product Variations.
+- Add Product Specifications.
+- Assign Product Categories.
+- Mark Products as Featured.
+- Mark Products as Best Sellers.
+- Mark Products as Trending.
+- Manage Product Stock.
+- Set Low Stock Alerts.
+- Publish or Unpublish Products.
+
+Product images must be uploaded to Supabase Storage.
+
+CATEGORY MANAGEMENT:
+
+Allow administrators to:
+
+- Create Categories.
+- Edit Categories.
+- Delete Categories.
+- Create Subcategories.
+- Assign Products to Categories.
+- Upload Category Images.
+
+ORDER MANAGEMENT:
+
+Allow administrators to:
+
+- View All Orders.
+- Search Orders.
+- Filter Orders.
+- View Customer Information.
+- View Products Purchased.
+- View Quantities.
+- View Total Order Amounts.
+- View Paystack References.
+- View Payment Status.
+- View Delivery Addresses.
+- Confirm Payment Status using verified transaction records.
+- Update Delivery Status.
+- Manage Order Fulfilment.
+- Cancel Orders where appropriate.
+- Process Refund Records.
+
+Create order statuses such as:
+
+- Pending Payment.
+- Paid.
+- Processing.
+- Ready for Delivery.
+- Shipped.
+- Delivered.
+- Cancelled.
+- Refunded.
+
+PAYMENT MANAGEMENT:
+
+Display:
+
+- Payment Reference.
+- Customer Name.
+- Order Number.
+- Amount Paid.
+- Payment Date.
+- Payment Status.
+- Payment Method.
+
+Only verified payment records should be marked successful.
+
+CUSTOMER MANAGEMENT:
+
+Allow administrators to:
+
+- View Registered Customers.
+- View Customer Information.
+- View Customer Order History.
+- Search Customers.
+
+SALES REPORTS:
+
+Provide:
+
+- Daily Sales.
+- Weekly Sales.
+- Monthly Sales.
+- Total Revenue.
+- Best-Selling Products.
+- Sales by Category.
+- Order Statistics.
+
+Add date filters and exportable reports where practical.
+
+# 14. SUPABASE BACKEND AND DATABASE
+
+Use Supabase as the actual backend.
+
+Connect the website to my Supabase project.
+
+Create a well-structured relational database.
+
+Create the necessary database tables, including:
+
+1. profiles
+2. user_roles
+3. categories
+4. products
+5. product_images
+6. product_variants
+7. inventory
+8. carts
+9. cart_items
+10. addresses
+11. orders
+12. order_items
+13. payments
+14. reviews
+15. coupons
+16. newsletter_subscribers
+17. delivery_records
+18. admin_activity_logs
+
+Use proper relationships, foreign keys, unique constraints, indexes, timestamps and appropriate database types.
+
+Create database migrations so the entire database structure can be reproduced.
+
+Implement Supabase Row Level Security (RLS) policies.
+
+SECURITY REQUIREMENTS:
+
+- Customers must only access their own private account information.
+- Customers must only view their own orders and payment records.
+- Customers must not be able to change their payment status.
+- Customers must not be able to access admin functions.
+- Only authorized administrators can manage products, categories, stock and orders.
+- Public visitors may view published products and categories.
+- Never expose the Supabase service role key in frontend code.
+- Use secure backend functions for sensitive operations.
+- Validate all important operations server-side.
+
+Create the necessary Supabase Storage buckets for:
+
+- Product Images.
+- Category Images.
+- Other approved store assets.
+
+Configure secure storage permissions.
+
+# 15. INVENTORY AND STOCK MANAGEMENT
+
+Create a proper inventory management system.
+
+When an order is placed, validate stock availability.
+
+Prevent customers from purchasing unavailable quantities.
+
+Use secure database transactions or atomic stock operations to prevent overselling when multiple customers purchase the same product simultaneously.
+
+After successful payment:
+
+- Deduct the purchased quantities from available inventory.
+- Update product stock.
+- Mark products as out of stock when inventory reaches zero.
+- Update inventory records.
+
+If payment fails or expires, ensure reserved stock is released where applicable.
+
+Handle cancelled and refunded orders appropriately without accidentally restoring stock twice.
+
+# 16. SEARCH FUNCTIONALITY
+
+Create a fully functional search system.
+
+Customers must be able to search by:
+
+- Product Name.
+- Brand.
+- Category.
+- Product Description.
+- Relevant Product Specifications.
+
+Display search suggestions where practical.
+
+Show matching products.
+
+Display a helpful message when no products are found.
+
+# 17. ABOUT US PAGE
+
+Create a professional About Us page.
+
+Include:
+
+- Brand Introduction.
+- Our Story.
+- Our Mission.
+- Our Vision.
+- Why Shop With Us.
+- Customer Commitment.
+
+Use professional layouts and relevant gadget images.
+
+# 18. CONTACT US PAGE
+
+Create a functional contact page containing:
+
+- Contact Form.
+- Phone Number.
+- WhatsApp Contact.
+- Business Email.
+- Social Media Links.
+- Business Information.
+
+Save contact form submissions in Supabase.
+
+Add proper form validation and success/error messages.
+
+# 19. ADDITIONAL E-COMMERCE FEATURES
+
+Implement the following:
+
+- Wishlist functionality.
+- Product ratings.
+- Verified customer reviews.
+- Coupon and discount codes.
+- Related products.
+- Recently viewed products.
+- Low stock notifications.
+- Order confirmation page.
+- Order tracking.
+- Responsive loading states.
+- Empty cart states.
+- Error messages.
+- Success notifications.
+- Custom 404 page.
+- SEO-friendly product URLs.
+- Product metadata.
+- Proper page titles and descriptions.
+
+All features must connect to the real backend wherever applicable.
+
+# 20. RESPONSIVE DESIGN
+
+The website must work perfectly on:
+
+- Android phones.
+- iPhones.
+- Tablets.
+- Laptops.
+- Desktop computers.
+
+Prioritize mobile-first design.
+
+Ensure:
+
+- No horizontal overflow.
+- Properly sized images.
+- Responsive product grids.
+- Mobile-friendly navigation.
+- Easy-to-use buttons.
+- Readable typography.
+- Responsive admin dashboard.
+- Proper checkout layouts.
+
+# 21. PERFORMANCE AND SECURITY
+
+Optimize the website for speed and reliability.
+
+Implement:
+
+- Optimized images.
+- Lazy loading.
+- Efficient database queries.
+- Proper caching where appropriate.
+- Input validation.
+- Secure authentication.
+- Protected routes.
+- Secure API communication.
+- Rate limiting for sensitive operations.
+- Proper error handling.
+- Protection against common web vulnerabilities.
+
+Never store passwords in plain text.
+
+Never expose private API keys.
+
+Never trust payment details or order totals supplied by the browser.
+
+# 22. REQUIRED APPLICATION STRUCTURE
+
+Organize the application professionally.
+
+Separate:
+
+- Frontend Components.
+- Pages.
+- Layouts.
+- Hooks.
+- Utilities.
+- Authentication.
+- Supabase Configuration.
+- Database Types.
+- Backend Functions.
+- Payment Integration.
+- WhatsApp Integration.
+- Admin Dashboard.
+- Product Management.
+- Cart Management.
+- Checkout.
+- Order Management.
+
+Use reusable components and maintainable code.
+
+Keep the code clean and properly structured.
+
+# 23. TESTING AND QUALITY ASSURANCE
+
+Before declaring the website complete, test every important feature.
+
+TEST 1: Homepage
+Check that all sections display correctly and products load from Supabase.
+
+TEST 2: Navigation
+Click every navigation item and verify that it opens the correct page.
+
+TEST 3: Categories
+Check that each category displays the correct products.
+
+TEST 4: Search
+Search for different products and verify the results.
+
+TEST 5: Product Details
+Open products and test images, variations, quantities and buttons.
+
+TEST 6: Shopping Cart
+Add products, remove products and change quantities. Confirm that totals update correctly.
+
+TEST 7: Authentication
+Test registration, login, logout and password recovery.
+
+TEST 8: Checkout
+Submit customer information and verify order creation.
+
+TEST 9: Paystack
+Test successful, failed and abandoned payment scenarios using Paystack test credentials.
+
+TEST 10: Payment Verification
+Ensure that only transactions verified by the backend can mark orders as paid.
+
+TEST 11: WhatsApp
+Verify that successful payment redirects customers to the correct WhatsApp number with the complete customized order message.
+
+TEST 12: Admin Dashboard
+Test adding, editing and deleting products, uploading images, managing stock and updating orders.
+
+TEST 13: Security
+Test customer access restrictions, admin permissions and database RLS policies.
+
+TEST 14: Inventory
+Test stock deduction, insufficient stock, concurrent orders and cancelled orders.
+
+TEST 15: Responsive Design
+Test all pages on mobile, tablet and desktop screen sizes.
+
+Fix every discovered error before declaring the application complete.
+
+# 24. IMPORTANT DEVELOPMENT INSTRUCTIONS
+
+Build this application from the beginning to completion.
+
+Do not skip any section.
+
+Do not replace actual functionality with sample buttons.
+
+Do not use fake payment verification.
+
+Do not hardcode products as the permanent product database.
+
+Do not use local storage as a replacement for Supabase.
+
+Do not expose secret keys.
+
+Do not create an admin dashboard that is only a visual design.
+
+Do not mark orders as paid without backend verification.
+
+Do not leave important pages unfinished.
+
+If you need information such as my:
+
+- Business Name.
+- Logo.
+- WhatsApp Business Number.
+- Business Email.
+- Supabase Project URL.
+- Supabase Anon/Publishable Key.
+- Paystack Public Key.
+- Paystack Secret Key.
+- Business Address.
+- Social Media Links.
+
+Create the appropriate configuration settings and clearly tell me which information I need to provide.
+
+Use secure environment variables for sensitive credentials.
+
+Never ask me to paste secret keys into public frontend code.
+
+# 25. DEVELOPMENT WORKFLOW
+
+Follow this development order:
+
+PHASE 1: Project Setup
+- Initialize the project.
+- Configure the frontend.
+- Set up the design system.
+- Configure Supabase.
+- Establish the application structure.
+
+PHASE 2: Database
+- Create all required database tables.
+- Create relationships.
+- Configure RLS.
+- Set up Storage.
+- Create database migrations.
+
+PHASE 3: Frontend
+- Build the homepage.
+- Build the navigation.
+- Build category pages.
+- Build product pages.
+- Build search.
+- Build the cart.
+- Build checkout.
+- Build customer accounts.
+- Build About Us and Contact Us pages.
+
+PHASE 4: Backend
+- Connect all frontend features to Supabase.
+- Implement authentication.
+- Implement product management.
+- Implement inventory.
+- Implement orders.
+- Implement customer management.
+
+PHASE 5: Payment
+- Integrate Paystack.
+- Implement secure payment initialization.
+- Implement payment verification.
+- Implement webhooks.
+- Implement order confirmation.
+
+PHASE 6: WhatsApp
+- Generate customized order messages.
+- Implement automatic WhatsApp redirection after verified payment.
+
+PHASE 7: Admin Dashboard
+- Implement product management.
+- Implement categories.
+- Implement inventory.
+- Implement order management.
+- Implement payments.
+- Implement customers.
+- Implement sales reports.
+
+PHASE 8: Testing
+- Test every feature.
+- Fix errors.
+- Check security.
+- Test payment functionality.
+- Test mobile responsiveness.
+
+PHASE 9: Deployment
+- Prepare the application for production.
+- Configure production environment variables.
+- Explain how to deploy the website.
+- Explain how to connect a custom domain.
+- Explain how to switch Paystack from test mode to live mode.
+- Provide all necessary deployment instructions.
+
+# 26. FINAL REQUIREMENT
+
+I want a complete, professional, production-ready gadgets e-commerce website.
+
+The finished application must have:
+
+1. A beautiful and fully functional homepage.
+2. Working navigation and category pages.
+3. Real products connected to Supabase.
+4. Functional product details pages.
+5. Working search and filtering.
+6. A fully functional shopping cart.
+7. Customer registration and login.
+8. A complete checkout system.
+9. Real Paystack payment integration.
+10. Secure payment verification.
+11. Automatic WhatsApp redirection after verified payment.
+12. A fully functional admin dashboard.
+13. Product and inventory management.
+14. Order and customer management.
+15. Responsive mobile and desktop layouts.
+16. Proper database security.
+17. Complete testing and deployment instructions.
+
+**MOST IMPORTANT: BUILD THE ACTUAL APPLICATION, NOT JUST THE DESIGN.**
+
+I want every feature to work from the customer's first visit to product selection, checkout, successful payment, WhatsApp redirection and final order management by the administrator.
+
+If you encounter an error, investigate the cause and fix it before proceeding.
+
+If you encounter missing credentials or configuration, clearly identify what is needed and continue implementing everything that does not depend on those credentials.
+
+Do not stop after generating the homepage.
+
+Do not stop after creating the frontend.
+
+Continue until all application phases are implemented, integrated and tested.
+
+If the project becomes too large for one generation, divide the work into manageable development phases, preserve the existing code and continue from the last completed phase without rebuilding or deleting working features.
+
+At the end, provide a complete implementation report showing:
+
+- What has been built.
+- What has been connected.
+- What has been tested.
+- What credentials I still need to provide.
+- What I need to do to launch the website.
+
+**START BUILDING MY COMPLETE GADGETS E-COMMERCE WEBSITE NOW.**

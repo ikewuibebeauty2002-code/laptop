@@ -1,0 +1,6 @@
+{
+  "name": "ZuriVolt Gadgets",
+  "description": "Nigeria's modern electronics and gadgets e-commerce store featuring Paystack checkout, verified WhatsApp order confirmation, and a complete admin management suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
